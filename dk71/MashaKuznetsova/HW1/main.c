@@ -4,6 +4,6 @@
 int main() {
     char *WhereFind = "Mashas";
     char *WhatFind = "s";
-    Search(str,WhatFind);
+    Search(WhereFind,WhatFind);
     return 0;
 }
