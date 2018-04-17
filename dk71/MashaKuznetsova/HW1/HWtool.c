@@ -5,7 +5,6 @@
 #include "stdio.h"
 void Search(char *WhereFind, char *WhatFind)
 {
-  int CONST =0;
     int i ,j;
     int Rezult=0;
     for(i = 0, j = 0; WhereFind[i] !='\0'  ; i++, j++)
@@ -13,7 +12,6 @@ void Search(char *WhereFind, char *WhatFind)
 
         if(WhereFind[i] == WhatFind[j])
         {
-            CONST ++;
             if(WhatFind[j+1]== '\0')
                 Rezult++;
         }
