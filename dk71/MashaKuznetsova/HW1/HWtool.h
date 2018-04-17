@@ -2,6 +2,6 @@
 #ifndef HWtool_H
 #define HWtool_H
 
-void Search(char *str, char *WhatFind);
+void Search(char *WhereFind, char *WhatFind);
 
 #endif	 /* HWtool_h */
