@@ -11,7 +11,7 @@ void Search(char *WhereFind, char *WhatFind)
     for(i = 0, j = 0; WhereFind[i] !='\0'  ; i++, j++)
     {
 
-        if(str[i] == WhatFind[j])
+        if(WhereFind[i] == WhatFind[j])
         {
             CONST ++;
             if(WhatFind[j+1]== '\0')
