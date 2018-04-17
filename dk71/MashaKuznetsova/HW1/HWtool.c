@@ -3,12 +3,12 @@
 //
 #include "HWtool.h"
 #include "stdio.h"
-void Search(char *str, char *WhatFind)
+void Search(char *WhereFind, char *WhatFind)
 {
   int CONST =0;
     int i ,j;
     int Rezult=0;
-    for(i = 0, j = 0; str[i] !='\0'  ; i++, j++)
+    for(i = 0, j = 0; WhereFind[i] !='\0'  ; i++, j++)
     {
 
         if(str[i] == WhatFind[j])
